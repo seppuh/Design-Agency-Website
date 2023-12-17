@@ -1,0 +1,69 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 2% 4%;
+    font-family: 'Roboto', sans-serif;
+    background-color: palegoldenrod;
+}
+
+header {
+    padding-top: 0;
+    color: orange;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 800;
+}
+
+span {
+    color: darkblue;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+footer>p {
+    color: darkblue;
+    text-align: end;
+}
+
+.articles>p {
+    padding-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    article {
+
+        justify-content: space-between;
+        display: flex;
+    }
+
+    /* make text of articles position at bottom of img */
+    .articles {
+        width: 40%;
+
+    }
+
+    h4 {
+        margin-bottom: 10px;
+    }
+
+    body {
+        padding: 5% 10%;
+    }
+}
